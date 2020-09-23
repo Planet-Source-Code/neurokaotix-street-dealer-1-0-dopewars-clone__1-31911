@@ -1,0 +1,102 @@
+[Root]
+Most Recent Package=Food Wars
+
+
+[Package|Food Wars|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Windows\Desktop\FWSetup
+
+[Package|Food Wars|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Food Wars|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Food Wars|Files Found]
+
+[Package|Food Wars|Files Released]
+
+[Package|Food Wars|Missing Dependency Information]
+
+[Package|Food Wars|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\msstdfmt.dll=
+C:\WINDOWS\SYSTEM\mscomctl.ocx=
+
+[Package|Food Wars|Files Added]
+
+[Package|Food Wars|Files Removed]
+c:\windows\system\msvbvm60.dll=
+c:\windows\system\oleaut32.dll=
+c:\windows\system\olepro32.dll=
+c:\windows\system\asycfilt.dll=
+c:\windows\system\stdole2.tlb=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+
+[Package|Food Wars|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=No
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=No
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=No
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=No
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=No
+C:\WINDOWS\SYSTEM\mscomctl.ocx=Yes
+C:\WINDOWS\SYSTEM\msstdfmt.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Food Wars\Food Wars.exe=Yes
+
+[Package|Food Wars|Configure Registry Files]
+Applicable=No
+
+[Package|Food Wars|Configure Remote Servers]
+Applicable=No
+
+[Package|Food Wars|Install Locations]
+C:\WINDOWS\Desktop\Food Wars.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\msstdfmt.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Food Wars\Food Wars.exe=$(AppPath)
+
+[Package|Food Wars|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Desktop\Food Wars.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Food Wars\Food Wars.exe=No
+
+[Package|Food Wars|Distribution]
+Type=single
+Size=1.44 MB
+Title=Food Wars 1.00
+
+[Package|Food Wars|Package]
+PackageFolder=C:\Windows\Desktop\FWSetup
+ProjectFolder=C:\Program Files\Microsoft Visual Studio\VB98\Food Wars
+ServerSideCab=
+File1=C:\Windows\Desktop\FWSetup\setup.exe
+File2=C:\Windows\Desktop\FWSetup\Setup.Lst
+File3=C:\Windows\Desktop\FWSetup\Food Wars.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Food Wars|IconGroups]
+Group0=FoodWars
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Food Wars|FoodWars]
+Icon1="Food Wars.exe"
+Title1=FoodWars
+StartIn1=$(AppPath)
+Key1=Icon1
